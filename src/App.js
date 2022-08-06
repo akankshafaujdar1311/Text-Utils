@@ -50,7 +50,7 @@ function App() {
  <Navbar title="My-app" aboutText="about us" mode={mode} toggleMode={toggleMode}/>
  <Alert alert={alert}/>
  <div className="container my-3">
-  <Router basename="/Text-trait">  
+  <Router basename="/Text-Utils">  
   <Routes>
     <Route path="/about" element={<About mode={mode}/>}/>
    <Route path="/home" element={<Textform showAlert={showAlert} heading=" TextUtils- word Counter, Character counter ,Remove extra spaces" mode={mode}/>}/>
